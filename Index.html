@@ -1,0 +1,32 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="/theme.css">
+  <link rel="stylesheet" type="text/css" href="/huh.css">
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<style>
+  body {
+    background-color: #fff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #000;
+    }
+  }
+</style>
+
+<body id="htmlbody">
+
+  <div style="position: absolute; display: grid; top: 50%;">
+    <button onclick="hwnd_create('/Assets/FluentIcons/Files.svg', 'Files', '/Files/index.html')">Files</button>
+    <button onclick="hwnd_create('/Assets/RSDKv4_256.png', 'RSDKv4', '/RSDKv4/index.html')">RSDKv4</button>
+    <button onclick="hwnd_create('/Assets/RSDKv3_256.png', 'RSDKv3', '/RSDKv3/index.html')">RSDKv3</button>
+    <button onclick="hwnd_create('/Assets/Nexus.png', 'RSDKv2', '/RSDKv2/index.html')">RSDKv2</button>
+  </div>
+
+
+  <img src="DesktopEnv/wallpaper.jpg" style="width: 100vw; height: 100vh; position: absolute; z-index: -1;"></img>
+
+  <script src="/Window.js"></script>
+  <script src="/Shared.js"></script>
+</body>
